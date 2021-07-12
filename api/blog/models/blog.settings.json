@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "name": "blog",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "text": {
+      "type": "text"
+    },
+    "richTextEditor": {
+      "type": "richtext"
+    },
+    "tags": {
+      "via": "blogs",
+      "collection": "tag"
+    },
+    "category": {
+      "via": "blogs",
+      "model": "category"
+    }
+  }
+}
