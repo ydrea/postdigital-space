@@ -9,9 +9,11 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
+    "@babel/plugin-transform-react-jsx-source": "^7.14.5",
+    "axios": "^0.21.1",
     "knex": "0.21.18",
+    "nextjs": "^0.0.3",
     "sqlite3": "5.0.0",
     "strapi": "3.6.5",
     "strapi-admin": "3.6.5",
