@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Button } from "@material-ui/core";
 
 export default function Nav() {
   return (
@@ -11,10 +12,14 @@ export default function Nav() {
         </Link>
         <ul>
           <li>
-            <Link href="/">Home</Link>
+            <Link href="/" passHref>
+              <Button>Home</Button>
+            </Link>
           </li>
           <li>
-            <Link href="/posts">Blog posts</Link>
+            <Link href="/posts" passHref>
+              <Button>Blog</Button>
+            </Link>
           </li>
         </ul>
       </div>
