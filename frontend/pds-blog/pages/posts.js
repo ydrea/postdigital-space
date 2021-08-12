@@ -1,6 +1,5 @@
 import React from 'react'
-
-function Ablog() {
+function Posts() {
     return (
         <div>
             do blog!
@@ -8,4 +7,4 @@ function Ablog() {
     )
 }
 
-export default Ablog
+export default Posts
