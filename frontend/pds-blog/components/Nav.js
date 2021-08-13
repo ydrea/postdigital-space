@@ -7,7 +7,7 @@ export default function Nav() {
   return (
     <nav className="navBar">
       <div className="container">
-        <Link href="/">
+        <Link href="/" passHref>
           <Image src={"/assets/pdSp.svg"} alt="lele" width="300" height="100" />
         </Link>
         <ul>
