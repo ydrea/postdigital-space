@@ -9,7 +9,11 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  color: adjust-hue($color: #000000, $degrees: 0);
+  }
+
 .container {
-  margin: 0 auto;
-  max-width: 900px;
+  margin: 0 0;
+  padding: 1em;
 }
